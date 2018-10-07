@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css?family=Comfortaa');
+html, body {
+	font-family: 'Comfortaa', cursive;
+	margin: 0;
+	padding: 0;
+	height: 100vh;
+	width: 100vw;
+	background-color: #eee;
+}
+.flex-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	height: 100%;
+	width: 30%;
+	margin: 0 auto;
+}
+input {
+	width: 100%;
+	padding: 0.8em 0.5em;
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid #ddd;
+}
+input:hover, input:focus {
+	outline: none;
+}
+button {
+	width: 100%;
+	padding: 0.8em 0.5em;
+	text-align: center;
+	border-radius: 15px;
+	border: 1px solid #ddd;
+	margin-top: 1em;
+	transition-duration: 0.5s;
+	background-color: #eaeaea;
+}
+button:hover, button:focus {
+	outline: none;
+	cursor: pointer;
+	background-color: #c6c6c6;
+}
