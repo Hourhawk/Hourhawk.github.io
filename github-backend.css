@@ -44,3 +44,8 @@ button:hover, button:focus {
 h2 {
 	text-align: center;
 }
+@media (max-width: 991.98px) {
+	.flex-container {
+		width: 85%;
+	}
+}
